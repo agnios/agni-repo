@@ -1,9 +1,9 @@
 #!/bin/bash
 
-rm -v agni.*
+rm -v agni-repo.*
 
 echo "repo-add"
-repo-add -n -R agni.db.tar.gz *.pkg.tar.zst
+repo-add -n -R agni-repo.db.tar.gz *.pkg.tar.zst
 sleep 5
 
 
